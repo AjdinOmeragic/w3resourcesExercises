@@ -5,3 +5,15 @@ Input a string : The quick brown fox jumps over the lazy dog.
 TThe quick brown fox jumps over the lazy dog.T
 */
 
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+       string str = "pep";
+       char c = str[0];
+      
+        Console.WriteLine("{0}{1}{2}", c,str,c);
+    }
+}
