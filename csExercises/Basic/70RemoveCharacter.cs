@@ -4,7 +4,6 @@ class Program
 {
     static void Main()
     {
-        // Test strings
         string[] testStrings = { "PHP", "Python", "JavaScript" };
 
         foreach (var str in testStrings)
